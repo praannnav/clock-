@@ -35,7 +35,7 @@ let clock=setInterval(() => {
 async function weather(latitude,longitude) {
   try {
     const weatherApiResponse = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=06196b9a7bfa4c68b1875518262608&q=${latitude},${longitude}&aqi=no`,
+      `https://api.weatherapi.com/v1/current.json?key=06196b9a7bfa4c68b1875518262608&q=${latitude},${longitude}&aqi=no`,
     );
     if(!weatherApiResponse.ok){
       throw new Error(`HTTP error: ${weatherApiResponse.status}`)
