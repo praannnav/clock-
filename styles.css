@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#nav ul{
+    display: flex;
+    font-size: 25px;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 6px;
+    margin:10px
+}
+#nav ul ul{
+    margin: 0px;
+}
+#nav ul ul li{
+    padding-left: 20px;
+}
+
+#city{
+    font-size: 35px;    
+}
+
+#main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+}
+#time ,#stopwatch-timer{
+    font-size: 100px;
+}
+#stopwatch-timer-btn{
+    display: none;
+    font-size: 35px;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+#stopwatch-stop-timer-btn{
+    display: none;
+    font-size: 35px;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+#stopwatch-reset-timer-btn{
+    display: none;
+    font-size: 35px;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+}
